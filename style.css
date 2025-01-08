@@ -1,0 +1,205 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+  }
+
+  .red{
+    color: red;
+  }
+  .nav-title{
+    font-size: 45px;
+    font-weight: 800;
+  }
+  ul li{
+    list-style: none;
+    margin-right: 50px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #474747;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+  }
+  .btn-1{
+    background-color: rgb(221, 122, 122);
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 10px;
+    display: block;
+  }
+
+header{
+    background: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+  /* banner-section stare here  */
+  .banner-section{
+    display: flex;
+    align-items: center;
+  }
+  .banner-content{
+margin-left: 70px;
+padding: 20px;
+width: 450px;
+  }
+
+.banner-img{
+    width: 580px;
+    height: 500px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+  }
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-container{
+    width: 100%;
+    padding: 10px;
+}
+.about-me{
+
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+h4{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px 10px;
+}
+.about-me-card-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.about-me-card-section p{
+    font-weight: 35px;
+    font-weight: bold;
+}
+
+
+.skill-container{
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.div-2{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   background-color: aliceblue;
+}
+.div-2>.card{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: start;
+}
+
+
+
+.resume-section{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+
+}
+.resume-col{
+    display: flex;
+   
+
+   
+}
+.resume-section >h1{
+    text-align: center;
+    padding: 30px 10px;
+}
+h5{
+    font-size: 30px;
+}
+.col-1> div>.title{
+    font-size: 25px;
+    font-weight: 400;
+}
+.col-2>div>.title{
+    font-size: 25px;
+    font-weight: 400;
+}
+.col-1>div{
+    width: 50%;
+    margin-bottom: 15px;
+}
+.col-2>div{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    background-color: antiquewhite;
+}
+h3{
+    font-size: 30px;
+}
+.footer-col{
+    padding: 15px;
+}
+.footer-col>div{
+    margin-top: 20px;
+}
+input{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 500px;
+}
+textarea{
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+
